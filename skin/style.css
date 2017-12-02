@@ -1,0 +1,20 @@
+#dev-menu-button{
+  list-style-image: url(chrome://dev-buttons/skin/images/iconSmall.png);
+}
+
+#dev-menu-button[cui-areatype="menu-panel"],
+toolbarpaletteitem[place="palette"] > #dev-menu-button{
+  list-style-image: url(chrome://dev-buttons/skin/images/iconLarge.png);
+}
+
+#inspector-item{
+  list-style-image: url(chrome://dev-buttons/skin/images/inspector.png);
+}
+
+#console-item{
+  list-style-image: url(chrome://dev-buttons/skin/images/console.png);
+}
+
+#debugger-item{
+  list-style-image: url(chrome://dev-buttons/skin/images/debugger.png);
+}
